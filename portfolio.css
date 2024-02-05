@@ -32,6 +32,7 @@ h1{
 }
 .img_phil{
     float: right;
+    border-radius: 50%;
 }
 h2{
     padding-right: 35px;
