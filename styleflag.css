@@ -1,0 +1,27 @@
+section{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, white 40%, red 40%,red 60%, white 60%, white 63%, 90%,red 40%,red 60%);
+
+
+}
+
+
+
+.Japan{
+    background:radial-gradient(circle,red 30%, white 30%)
+}
+ul{
+    background: conic-gradient(
+        white 25%,
+        red 15%,
+        cyan 25%,
+        blue 25%,
+        blue 40%,
+        purple 40%,
+        purple 65%,
+        gray 65%,
+        gray 80%,
+        crimson 80%
+    );
+}

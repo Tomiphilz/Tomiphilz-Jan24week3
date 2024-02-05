@@ -1,0 +1,43 @@
+li{
+    background: transparent;
+   }
+ul li:first-of-type{
+    color: blueviolet;
+}
+ul li:last-of-type{
+    color: blueviolet;
+}
+li:nth-of-type(n+1){
+    color: lawngreen;
+}
+li:nth-of-type(n+6){
+    color: black;
+}
+ul{
+    background-color: #f1c;
+    background: linear-gradient(180deg,#f1c 70%);
+}
+section{
+    background: linear-gradient(60deg, color);
+
+}
+.third{
+    font-size: 1em;
+    color: transparent;
+    background: -webkit-repeating-linear-gradient(45deg, green 30%, red 32%);
+    background-clip: text;
+}
+ul{
+    background: conic-gradient(
+        violet 15%,
+        cyan 15%,
+        cyan 25%,
+        blue 25%,
+        blue 40%,
+        purple 40%,
+        purple 65%,
+        gray 65%,
+        gray 80%,
+        crimson 80%
+        );
+}
